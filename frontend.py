@@ -162,7 +162,6 @@ st.markdown("""
 # -----------------------------
 # Main Card
 # -----------------------------
-st.markdown('<div class="card">', unsafe_allow_html=True)
 
 st.markdown(
     '<div class="input-label">Enter your text</div>',
@@ -245,8 +244,6 @@ if st.button("Analyze Sentiment"):
     else:
 
         st.warning("Please enter some text to analyze.")
-
-st.markdown('</div>', unsafe_allow_html=True)
 
 
 # -----------------------------
